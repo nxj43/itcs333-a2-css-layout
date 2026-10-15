@@ -25,3 +25,8 @@ input{
 input:focus{
    outline:2px solid yellowgreen;
 }
+@media (max-width:700px){
+   .card-grid{
+      grid-template-columns: 1fr;
+   }
+}
